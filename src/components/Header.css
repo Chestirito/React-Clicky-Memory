@@ -1,7 +1,11 @@
 .header{
-    background-color: grey;
+    background-color: rgb(48, 48, 48, 98%);
+    color: white;
 }
 
+.message{
+    transition: color 0.2s ease-out;
+}
 .red{
     color: red;
 }

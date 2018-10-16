@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-// import Container from "./Container";
-// import Row from "./Row";
-import logo from '../logo.svg';
 import { Col, Row, Container } from "./Grid";
 import Header from './Header';
 import Introduction from './Introduction';
@@ -80,11 +77,10 @@ class GameContainer extends Component {
 
     let objArr = []
     imgSrc.map(element => {
-      //console.log("hahaha");
-      objArr.push({
+      return (objArr.push({
         isClick: false,
         src: element
-      })
+      }));
     });
 
     //console.log(objArr);
@@ -123,6 +119,9 @@ class GameContainer extends Component {
     return array;
   }
 
+  reloadPage = () =>{
+    window.location.reload();
+  }
   
 
   render() {
@@ -131,6 +130,7 @@ class GameContainer extends Component {
         <Header
           score={this.state.score}
           message={this.state.message}
+          reloadPage={() => this.reloadPage()}
         />
         <Introduction/>
         <Row>

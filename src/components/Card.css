@@ -4,4 +4,14 @@
     display: inline-block;
     margin: 0.5em;
     padding: 0.5em;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.cards::after {
+    box-shadow: 5px 5px 5px grey;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+.cards:hover{
+    box-shadow: 5px 5px 5px grey;
 }
