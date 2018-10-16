@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/React-Clicky-Memory/static/js/runtime~main.d13b72a2.js"
   },
   {
-    "revision": "dcfb01de601a856fab21",
-    "url": "/React-Clicky-Memory/static/js/main.dcfb01de.chunk.js"
+    "revision": "9895597ad484e9bbec95",
+    "url": "/React-Clicky-Memory/static/js/main.9895597a.chunk.js"
   },
   {
     "revision": "7eae6140ad0adf38fbdc",
     "url": "/React-Clicky-Memory/static/js/1.7eae6140.chunk.js"
   },
   {
-    "revision": "dcfb01de601a856fab21",
+    "revision": "9895597ad484e9bbec95",
     "url": "/React-Clicky-Memory/static/css/main.cac0f862.chunk.css"
   },
   {
-    "revision": "c26a8268e0eabd01a55956d52598b25f",
+    "revision": "1a87e068925bf7fa46bd79a8209fc1c7",
     "url": "/React-Clicky-Memory/index.html"
   }
 ];
