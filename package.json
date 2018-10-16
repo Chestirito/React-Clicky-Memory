@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://chestirito.github.io/React-Clicky-Memory/"
+    "homepage": "https://chestirito.github.io/React-Clicky-Memory/build"
   },
   "eslintConfig": {
     "extends": "react-app"
