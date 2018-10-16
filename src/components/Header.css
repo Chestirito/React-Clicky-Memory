@@ -1,0 +1,13 @@
+.header{
+    background-color: grey;
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.normal{
+    color: inherit;
+}
