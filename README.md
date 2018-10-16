@@ -9,6 +9,7 @@ The game resets when you click on the same image twice.
 # Specifications
 - Game records top score until browser is reloaded
 - There is no win screen, the current max score is 10
+- Clicking on the logo at the top left reloads the page
 
 # Built using:
 - React
